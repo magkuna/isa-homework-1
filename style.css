@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: zero;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.hero {
+    height: 50px;
+    text-align: center;
+    padding:10px;
+  
+}
+
+.title, .title1, .title2, .title3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.about {
+    height: 250px;
+    text-align: left;
+}
+
+img.align-right {
+    float: right;
+    margin-right: 10px;
+    max-width: 30%;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+img {
+    max-width: 20%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.knowledge-info__wrapper {
+    display: flex;
+    height: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.knowledge-info {
+    text-align: justify;
+    flex-basis: 33%;
+    padding: 50px;
+}
+.nav-container{
+    text-align: center;
+    text-decoration:none;
+}
